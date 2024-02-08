@@ -7,7 +7,7 @@ export default function ShortUrlRedirect() {
   const serverBaseUrl = import.meta.env.VITE_APP_URI;
 
   const redirect = () => {
-    let url = (serverBaseUrl + `/${urlCode}`);
+    let url = (serverBaseUrl + `${urlCode}`);
     window.location.replace(url);
   };
 
