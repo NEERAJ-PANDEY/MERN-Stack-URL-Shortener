@@ -26,9 +26,7 @@ const Login = () => {
 
   return (
     <div className="login-main">
-      <div className="login-left">
-        <img src={Logo} alt="" />
-      </div>
+      
       <div className="login-right">
         <div className="login-right-container">
           <div className="login-center">

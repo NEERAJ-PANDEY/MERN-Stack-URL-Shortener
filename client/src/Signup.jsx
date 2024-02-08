@@ -25,9 +25,7 @@ const Signup = () => {
 
   return (
     <div className="register-main">
-      <div className="register-left">
-        <img src={Image} alt="" />
-      </div>
+     
       <div className="register-right">
         <div className="register-right-container">
           <div className="register-logo">

@@ -126,6 +126,7 @@ export const InputForm = () => {
           <Button onClick={onCopy} ml={2}>
             {hasCopied ? "Copied" : "Copy"}
           </Button>
+          <a target="_blank" href={url}>Click here to redirect url</a>
         </Flex>
       )}
     </Box>
